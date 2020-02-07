@@ -4,4 +4,4 @@
  
  - HTML + CSS   
  - Js  
- - animate.js & Animate On Scroll Library (AOS)
+ - animate.js & WOW.js
