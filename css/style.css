@@ -1,3 +1,9 @@
+body, td, div, dl, dt, dd, menu, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, button, textarea, select, p, blockquote {
+  margin: 0;
+  padding: 0;
+  font: normal 13px arial;
+}
+
 .body{
   background-color: #fff;
   color: #000000;
@@ -5,6 +11,9 @@
 }
 .main{
   width: 100%;
+  position: relative;
+  text-align: center;
+  margin: auto;
 }
 #header .display{
   transition: 0.5s;
@@ -36,6 +45,7 @@
   font-weight: 400;
   text-align: center;
   transition: 0.3s;
+  text-decoration: none;
 }
 #header  #navigation a:hover{
   text-decoration: none;
@@ -789,8 +799,8 @@
   .overlay {overflow-y: auto;}
   .overlay a {font-size: 20px}
   .overlay .closebtn {
-  font-size: 40px;
-  top: 15px;
-  right: 35px;
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
   }
 }
